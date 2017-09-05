@@ -1,6 +1,8 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
+import {setPrincipal, setInterest, setYears} from '../actions';
+
 export function InterestCalculator(props) {
     return (
         <form className="interest-calculator"
